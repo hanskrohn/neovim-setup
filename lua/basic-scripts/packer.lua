@@ -51,4 +51,6 @@ return require('packer').startup(function(use)
 
   use("github/copilot.vim")
   use("ThePrimeagen/vim-be-good")
+  use 'fatih/vim-go'
+  use 'dense-analysis/ale'
 end)
